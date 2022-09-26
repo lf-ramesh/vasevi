@@ -1,0 +1,121 @@
+
+@media (min-width: 320px) and (max-width: 1024px) {
+
+	.humburger-menu{
+		display:block;
+	}
+	.header-menu{
+		display:none;
+	}
+	.header-menu li {
+		width: 100% !important;
+	}
+	.header-menu li a{
+	   padding:5px 0px;
+	   width: 100%;
+		display: inline-block;
+	}
+	.header-menu li a:hover,.header-menu li.current_page_item a{
+		background:transparent;
+		color:#9048fd;
+	}
+	.header-menu ul li ul{
+		display:block;
+	}
+	.header-menu ul li ul{
+		width: 100%;
+		position: relative;
+		top: 0px;
+	}
+	.header-logo a span {
+		float: left;
+		margin-left: 10px;
+		margin-top: 0px;
+		margin-right: 10px;
+	width: calc( 100% - 150px);
+text-align: left;
+	}
+.header-info .em-tt{
+    float:left !important;
+}
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+ 
+.hero-banner {
+    padding-top: 70px;
+    display: inline-block;
+    width: 100%;
+    height: 560px;
+    float: left;
+    background-size: cover !important;
+}
+
+.about-section .about-img{
+margin-bottom:15px;
+}
+
+.systems-img{
+height:180px;
+}
+
+.systems-img img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+	.facility-page.alter-page-content-area .list-post {
+		width: 100%;
+	}
+		.tmm .tmm_4_columns .tmm_member{
+		width:40% !important;
+	}
+	.hero-banner .hero-banner-title h1 span{
+		font-size:25px;
+	}
+   .hero-banner .hero-banner-title {
+    width: 100%;
+}
+	.hero-banner .hero-banner-title h1{
+		padding:40px 0px 15px 0px;
+	}
+	.hero-banner .hero-img-container{
+		padding-top:20px;		
+		margin:0 auto;
+	}
+	
+	.wht-box-bg-adj .content{
+		width: calc(100% - 230px);
+		margin: 15px;
+	}
+	.widget-bg ul li a{
+		padding-right:20px;
+	}
+	.wht-box-bg-adj img{
+		width: 200px;
+		float: right;
+	}
+	.mb-responsive{
+		width:100%;
+		height:auto;
+	}
+	.custom-tab {
+		width: 100%;
+		position: relative;
+		bottom: 0px;
+		height: auto;
+		border-radius: 4px;
+		z-index: 1;
+		margin-top: 15px;
+		margin-left: -15px;
+	}
+	.features-grid-bg{
+		text-align:center;
+	}
+}
+
+@media (min-width: 320px) and (max-width: 650px) {
+		.tmm .tmm_4_columns .tmm_member{
+		width:90% !important;
+	}
+}

@@ -1,0 +1,131 @@
+#s-line-01,#s-line-02,#s-line-03,#s-line-04,#s-line-05,#s-line-06,#s-line-07,#s-line-08{
+	opacity:0.2;
+}
+#s-line-01,#s-line-02,#s-line-03,#s-line-04,#s-line-05,#s-line-06,#s-line-07,#s-line-08{
+ -webkit-animation: sunAni 3s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: sunAni 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: sunAni 3s infinite;
+	animation-delay: 0.5s;	
+}
+
+#sun #s-line-02,#sun #s-line-04,#sun #s-line-06{
+ -webkit-animation: sunAni 3s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: sunAni 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: sunAni 3s infinite;
+	animation-delay: 1s;	
+}
+
+#sun #s-line-03,#sun #s-line-07,#sun #s-line-08{
+ -webkit-animation: sunAni 3s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: sunAni 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: sunAni 3s infinite;
+	animation-delay: 1.5s;	
+}
+
+@keyframes sunAni{
+   0%   {opacity:0.5;}
+   50%  {opacity:1;}
+  100%  {opacity:0.5;}
+}
+
+#cloud-01{
+ -webkit-animation: cloudAni01 5s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: cloudAni01 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: cloudAni01 5s infinite;	
+		animation-delay: 1s;	
+	}
+#cloud-02{
+ -webkit-animation: cloudAni02 5s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: cloudAni02 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: cloudAni02 5s infinite;
+	animation-delay: 2s;	
+	}
+#dot-01,#dot-02,#dot-03,#dot-04,#dot-05,#dot-06	{
+	opacity:0;
+	}
+#line-01,#line-02{
+	opacity:0;
+}
+#line-01{
+	-webkit-animation: lineAni01 1s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: lineAni01 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: lineAni01 1s infinite;	
+	animation-delay: 1s; 	
+	}	
+#line-02{
+	-webkit-animation: lineAni01 1.5s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: lineAni01 1.5s infinite; /* Safari 4.0 - 8.0 */
+    animation: lineAni01 1.5s infinite;	
+	animation-delay: 2s; 	
+	}		
+	
+#particles #dot-01{
+	-webkit-animation: dotFade01 6s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: dotFade01 6s infinite; /* Safari 4.0 - 8.0 */
+    animation: dotFade01 6s infinite;	
+	animation-delay: 5s; 
+}
+#particles #dot-02{
+	-webkit-animation: dotFade01 5s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: dotFade01 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: dotFade01 5s infinite;	
+		animation-delay: 4s; 
+}
+#particles #dot-03{
+	-webkit-animation: dotFade01 4s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: dotFade01 4s infinite; /* Safari 4.0 - 8.0 */
+    animation: dotFade01 4s infinite;	
+		animation-delay: 3s; 	
+}
+#particles #dot-04{
+	-webkit-animation: dotFade01 3s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: dotFade01 3s infinite; /* Safari 4.0 - 8.0 */
+    animation: dotFade01 3s infinite;	
+		animation-delay: 2s; 		
+}
+#particles #dot-05{
+	-webkit-animation: dotFade01 2s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: dotFade01 2s infinite; /* Safari 4.0 - 8.0 */
+    animation: dotFade01 2s infinite;	
+			animation-delay: 1s; 	
+}
+#particles #dot-06{
+	-webkit-animation: dotFade01 1s infinite; /* Safari 4.0 - 8.0 */
+  -moz-animation: dotFade01 1s infinite; /* Safari 4.0 - 8.0 */
+    animation: dotFade01 1s infinite;	
+}
+
+
+@keyframes lineAni01{
+   0%{
+	opacity:0;
+	transform: translateY(0);
+	}
+  50% {
+	opacity: 0.5;
+	transform: translate(-20%,40%);
+	}
+  100% {
+	opacity: 0;
+	transform: translate(-50%,110%);
+	}  
+}
+
+
+@keyframes dotFade01{
+   0%   {opacity:0;transform: translatey(0);}
+  50% {opacity:1;transform: translatey(50px);}
+  100% {opacity:0;transform: translatey(70px);}  
+}
+	
+@keyframes cloudAni01{
+   0%   {transform: translatex(0);}
+  50%  {transform: translatex(-55px);}
+  100% {transform: translatex(0);}
+}
+
+@keyframes cloudAni02{
+   0%   {transform: translatex(0);}
+  50%  {transform: translatex(55px);}
+  100% {transform: translatex(0);}
+}
